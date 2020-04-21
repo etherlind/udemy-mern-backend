@@ -1,0 +1,32 @@
+{
+    "name": "udemy-mern-fullstack-guide",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/camilayusupova/udemy-mern-fullstack-guide.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/camilayusupova/udemy-mern-fullstack-guide/issues"
+    },
+    "homepage": "https://github.com/camilayusupova/udemy-mern-fullstack-guide#readme",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-validator": "^6.4.0",
+        "mongoose": "^5.9.10",
+        "mongoose-unique-validator": "^2.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
